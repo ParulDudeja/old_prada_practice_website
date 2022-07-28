@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url(//db.onlinewebfonts.com/c/75135d5bab4eade37ad4d20803c7ffbd?family=Modern+No.20);
+
+body {
+  font-family: "Open Sans", sans-serif;
+  /* max-width: 1440px; */
+  font-size: 16px;
+  color: #000000;
+  line-height: 24px;
+  background: #e5e5e5;
+}
+.container {
+  width: 1196px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+ul {
+  list-style: none;
+}
+/* ---------------------header--------------------- */
+
+.sale-offer {
+  text-transform: uppercase;
+  font-weight: 400;
+  width: 57%;
+  text-align: right;
+}
+.header {
+  display: flex;
+  align-items: center;
+  background: #c4c4c4;
+  justify-content: space-between;
+  height: 50px;
+  flex-wrap: wrap;
+}
+.sale-offer h3 {
+  text-decoration: underline;
+}
+.login ul {
+  display: flex;
+  margin-right: 100px;
+}
+
+.login ul li {
+  margin: 16px;
+}
+.login {
+  font-size: 14px;
+  font-weight: 400;
+}
+.login ul li span {
+  margin-left: 5px;
+}
+/* ---------------------------logo------------------- */
+
+.logo {
+  text-transform: uppercase;
+  height: 51px;
+  font-family: "Modern No. 20";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  padding: 40px;
+  text-align: center;
+}
+/* ----------------------------main navbar--------------------- */
+.navbar {
+  height: 19px;
+  font-family: "Modern No. 20";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.navbar ul {
+  display: flex;
+  margin-left: 18px;
+  justify-content: space-evenly;
+  /* flex-wrap: wrap; */
+
+  /* margin-bottom: 40px; */
+}
+.navbar .icon {
+  display: none;
+}
+.navbar.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+/* -------------------------main banner--------------- */
+.banner img {
+  width: 100%;
+}
+.sub-heading {
+  text-align: center;
+}
+.sub-heading h3 {
+  font-family: "Modern No. 20";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 39px;
+  margin: 15px 0;
+}
+.sub-heading p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+.btn-cta {
+  box-sizing: border-box;
+  margin: 20px 0;
+  padding: 15px 40px;
+  border: 1px solid #000000;
+}
+/* -------------------new arrival category---------------------- */
+
+.section-title {
+  text-align: center;
+}
+.section-title h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+  margin: 30px auto;
+}
+
+.products {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.product-item {
+  flex-basis: 30%;
+  margin-top: 40px;
+}
+
+.product-item img {
+  width: 100%;
+}
+.product-item p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #848484;
+  padding: 8px 32px;
+}
+.product-item h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 0 0 8px 32px;
+}
+
+/* -----------------light layers show CTA code---------------- */
+
+.product {
+  display: flex;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+.product-text {
+  flex-basis: 35%;
+  margin: 0px;
+  display: grid;
+  grid-template-rows: 1fr;
+}
+.product-image {
+  flex-basis: 65%;
+  /* height: 656px; */
+}
+.product-image img {
+  width: 97%;
+}
+
+.product-text h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  align-self: self-end;
+}
+.product-text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 15px 0;
+  align-self: self-end;
+}
+.product-text button {
+  width: 62%;
+  align-self: self-end;
+}
+/* ------------------------------banner2--------------------- */
+.bg-banner-area {
+  margin-top: 50px;
+  font-weight: 600;
+}
+.bottom-r {
+  display: block;
+  position: relative;
+  text-align: right;
+}
+
+.bottom-r img {
+  width: 100%;
+  padding: 15px 30px;
+}
+.bottom-r h2 {
+  font-size: 24px;
+  letter-spacing: 0.35em;
+  color: #ffffff;
+  position: absolute;
+  text-align: right;
+  bottom: 28%;
+  width: 100%;
+  padding-right: 54px;
+}
+.btn-wn {
+  background: #ffffff;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: right;
+  right: 5%;
+  position: absolute;
+  bottom: 17%;
+  padding: 10px 20px;
+  width: 224px;
+}
+
+/* --------------footer------------------------- */
+footer {
+  background: #ffffff;
+}
+.row {
+  display: flex;
+  margin: 40px 0 0;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+.footer-col {
+  flex-basis: 27%;
+  margin-left: 30px;
+}
+.footer-col h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: left;
+}
+/* .footer-col h4:nth-child(3) {
+  margin-right: 100px;
+} */
+.footer-col ul li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: left;
+}
+.footer-col ul li a {
+  line-height: 2.5;
+}
+.social-links {
+  text-align: right;
+}
+.social-links a {
+  line-height: 2;
+  margin-right: 10px;
+}
+.footer-col ul li a img {
+  margin-top: 18px;
+}
+.footer-col.right h4 {
+  text-align: right;
+  margin-right: 30px;
+  margin-bottom: 15px;
+}
